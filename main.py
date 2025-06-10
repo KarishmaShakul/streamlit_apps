@@ -1,10 +1,11 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+
 st.header("🤖AIML Engineer")
 st.subheader("CS graduate")
 
 
-st.title("👰 I am Karishma")
+st.title("I am Karishma")
 st.text_input("Enter Your name")
 st.number_input("Enter Your age")
 st.date_input("Enter DOB")
