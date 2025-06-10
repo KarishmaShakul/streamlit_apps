@@ -3,10 +3,8 @@ from streamlit_option_menu import option_menu
 st.header("🤖AIML Engineer")
 st.subheader("CS graduate")
 
-st.progress(0.5)
-st.progress(0.5,text="50%")
-st.progress(0.5,text="50%")
-st.title("👰🏼‍♂️I am Vaishnavi")
+
+st.title("👰 I am Karishma")
 st.text_input("Enter Your name")
 st.number_input("Enter Your age")
 st.date_input("Enter DOB")
@@ -14,6 +12,9 @@ st.checkbox("I agree")
 st.radio("Select your gender",["Male","Female"])
 st.selectbox("Select your country ",["Male","Female"])
 st.multiselect("Select your country ",["Male","Female"])
+st.progress(0.5)
+st.progress(0.5,text="50%")
+st.progress(0.5,text="50%")
 st.slider(label="Saturation",min_value=0,max_value=100,value=10)
 
 
